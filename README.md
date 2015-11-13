@@ -8,6 +8,10 @@ This app will add the Google Tag Manager snippet to your site.
 | ------------- | ------------- |
 | 1.0.0 | 6.2.0 |
 
+## Download
+
+This app can be downloaded from [our repo](http://repo.enonic.com/public/com/enonic/app/google.tagmanager/), or you can download the source code and build the app yourself.
+
 ## Configuration
 
 Just add the app to your site. The only configuration required is setting the Container ID for Google Tag Manager.
