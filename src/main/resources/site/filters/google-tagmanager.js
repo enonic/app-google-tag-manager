@@ -5,8 +5,6 @@ exports.responseFilter = function (req, res) {
     var siteConfig =  portal.getSiteConfig();
     var containerID = siteConfig['googleTagManagerContainerID'] || '';
 
-    log.info('UTIL log %s', JSON.stringify(siteConfig, null, 4));
-
     var snippet = '<!-- Google Tag Manager -->';
     snippet += '<script>dataLayer = [];</script>';
     snippet += '<noscript><iframe src="//www.googletagmanager.com/ns.html?id=' + containerID + '" ';
