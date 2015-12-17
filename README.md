@@ -8,6 +8,7 @@ This app will add the Google Tag Manager snippet to your site.
 | ------------- | ------------- |
 | 1.0.1 | 6.2.0 |
 | 1.0.0 | 6.2.0 |
+| 1.1.0 | 6.3.0-RC2 |
 
 ## Download
 
