@@ -6,6 +6,7 @@ This app will add the Google Tag Manager snippet to your site.
 
 | App version        | XP version |
 | ------------- | ------------- |
+| 1.1.0 | 6.4.0 |
 | 1.0.1 | 6.2.0 |
 | 1.0.0 | 6.2.0 |
 
