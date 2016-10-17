@@ -22,13 +22,21 @@ exports.responseFilter = function (req, res) {
     // Only add snippet if in live mode and containerID is set
     if (req.mode === 'live' && containerID !== '') {
 
-        if (!res.pageContributions.headEnd) {
+        var headEnd = res.pageContributions.headEnd;
+        if (!headEnd) {
             res.pageContributions.headEnd = [];
+        }
+        else if (typeof(headEnd) == 'string') {
+            res.pageContributions.headEnd = [headEnd];
         }
         res.pageContributions.headEnd.push(headSnippet);
 
-        if (!res.pageContributions.bodyBegin) {
+        var bodyBegin = res.pageContributions.bodyBegin;
+        if (!bodyBegin) {
             res.pageContributions.bodyBegin = [];
+        }
+        else if (typeof(bodyBegin) == 'string') {
+            res.pageContributions.bodyBegin = [bodyBegin];
         }
         res.pageContributions.bodyBegin.push(bodySnippet);
     }
