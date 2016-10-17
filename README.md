@@ -6,11 +6,13 @@ This app will add the Google Tag Manager snippet to your site.
 
 | App version        | XP version |
 | ------------- | ------------- |
-| 1.0.0 | 6.2.0 |
-| 1.0.1 | 6.2.0 |
-| 1.1.0 | 6.4.0 |
-| 1.2.0 | 6.4.0 |
-| 1.3.0 | 6.7.0 |
+| 1.0.0 | 6.2.0 | [Download](http://repo.enonic.com/artifactory/public/com/enonic/app/google.tagmanager/1.0.0/google.tagmanager-1.0.0.jar) |
+| 1.0.1 | 6.2.0 | [Download](http://repo.enonic.com/artifactory/public/com/enonic/app/google.tagmanager/1.0.1/google.tagmanager-1.0.1.jar) |
+| 1.1.0 | 6.4.0 | [Download](http://repo.enonic.com/artifactory/public/com/enonic/app/google.tagmanager/1.1.0/google.tagmanager-1.1.0.jar) |
+| 1.2.0 | 6.4.0 | [Download](http://repo.enonic.com/artifactory/public/com/enonic/app/google.tagmanager/1.2.0/google.tagmanager-1.2.0.jar) |
+| 1.3.0 | 6.4.0 | [Download](http://repo.enonic.com/artifactory/public/com/enonic/app/google.tagmanager/1.3.0/google.tagmanager-1.3.0.jar) |
+| 1.4.0 | 6.4.0 | [Download](http://repo.enonic.com/artifactory/public/com/enonic/app/google.tagmanager/1.4.0/google.tagmanager-1.4.0.jar) |
+| 1.5.0 | 6.7.0 | [Download](http://repo.enonic.com/artifactory/public/com/enonic/app/google.tagmanager/1.5.0/google.tagmanager-1.5.0.jar) |
 
 ## Download
 
