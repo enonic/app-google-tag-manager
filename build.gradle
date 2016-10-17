@@ -34,15 +34,10 @@ repositories {
     }
 }
 
-publishing {
-  publications {
-    mavenJava( MavenPublication ) {
-      from components.java
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository( url: 'http://repo.enonic.com/artifactory/public' )
+        }
     }
-  }
-  repositories {
-    maven {
-      url 'http://repo.enonic.net/artifactory/public'
-    }
-  }
 }
