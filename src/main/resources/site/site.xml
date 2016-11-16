@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
   <config>
-    <input type="Text" name="googleTagManagerContainerID">
+    <input type="TextLine" name="googleTagManagerContainerID">
       <label>Container ID</label>
       <occurrences minimum="0" maximum="1"/>
     </input>
