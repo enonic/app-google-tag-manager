@@ -7,7 +7,7 @@ app {
     name = project.appName
     displayName = 'Google Tag Manager'
     vendorName = 'Enonic AS'
-    vendorUrl = 'http://enonic.com'
+    vendorUrl = 'https://enonic.com'
     systemVersion = "${xpVersion}"
 }
 
