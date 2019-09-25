@@ -15,7 +15,7 @@ exports.responseProcessor = function (req, res) {
     headSnippet += '<!-- End Google Tag Manager -->';
 
     var bodySnippet = '<!-- Google Tag Manager (noscript) -->';
-    bodySnippet += '<noscript><iframe src="//www.googletagmanager.com/ns.html?id=' + containerID + '" ';
+    bodySnippet += '<noscript><iframe name="Google Tag Manager" src="//www.googletagmanager.com/ns.html?id=' + containerID + '" ';
     bodySnippet += 'height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>';
     bodySnippet += '<!-- End Google Tag Manager (noscript) -->';
 
