@@ -5,6 +5,16 @@
       <label>Container ID</label>
       <occurrences minimum="0" maximum="1"/>
     </input>
+    <item-set name="googleTagManagerContainerIDs">
+      <label>Extra container IDs</label>
+      <occurrences minimum="0" maximum="0"/>
+      <items>
+        <input name="googleTagManagerContainerID" type="TextLine">
+          <label>Container ID</label>
+          <occurrences minimum="1" maximum="1"/>
+        </input>
+      </items>
+    </item-set>
   </form>
   <processors>
     <response-processor name="google-tagmanager" order="10"/>
