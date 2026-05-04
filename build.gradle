@@ -1,23 +1,15 @@
 plugins {
     id 'maven-publish'
     id 'com.enonic.defaults' version '2.1.6'
-    id 'com.enonic.xp.app' version '3.6.2'
-}
-
-app {
-    name = project.appName
-    displayName = 'Google Tag Manager'
-    vendorName = 'Enonic AS'
-    vendorUrl = 'https://enonic.com'
-    systemVersion = "${xpVersion}"
+    id 'com.enonic.xp.app'
 }
 
 dependencies {
-    include "com.enonic.xp:lib-portal:${xpVersion}"
+    include xplibs.portal
 }
 
 repositories {
     mavenLocal()
     mavenCentral()
-    xp.enonicRepo()
+    xp.enonicRepo('dev')
 }
